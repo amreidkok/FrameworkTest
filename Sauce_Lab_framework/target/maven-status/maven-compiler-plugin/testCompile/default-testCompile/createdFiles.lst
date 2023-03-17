@@ -1,0 +1,6 @@
+Testcases\LoginTestCases.class
+Utilities\JsonDataHelper.class
+Testcases\MyCartTestCases.class
+Testcases\BaseTest.class
+Utilities\ScreenShot.class
+Testcases\HomePageTestCases.class

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="86052" started-at="2023-03-17T20:43:37Z" finished-at="2023-03-17T20:45:03Z">
+    <groups>
+    </groups>
+    <test name="RegressionTest" duration-ms="86052" started-at="2023-03-17T20:43:37Z" finished-at="2023-03-17T20:45:03Z">
+      <class name="Testcases.LoginTestCases">
+        <test-method status="PASS" signature="GenerateExtentReport()[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="GenerateExtentReport" is-config="true" duration-ms="792" started-at="2023-03-17T20:43:37Z" finished-at="2023-03-17T20:43:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GenerateExtentReport -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="beforeMethod" is-config="true" duration-ms="19370" started-at="2023-03-17T20:43:38Z" finished-at="2023-03-17T20:43:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="InvalidLoginTestCase(java.lang.String)[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="InvalidLoginTestCase" duration-ms="9390" started-at="2023-03-17T20:43:57Z" data-provider="InvalidLoginTestData" finished-at="2023-03-17T20:44:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user1,secret_sauce1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InvalidLoginTestCase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="afterMethod" is-config="true" duration-ms="563" started-at="2023-03-17T20:44:07Z" finished-at="2023-03-17T20:44:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=InvalidLoginTestCase status=SUCCESS method=LoginTestCases.InvalidLoginTestCase(java.lang.String)[pri:0, instance:Testcases.LoginTestCases@27c20538] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="beforeMethod" is-config="true" duration-ms="5321" started-at="2023-03-17T20:44:07Z" finished-at="2023-03-17T20:44:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="LoginThenLogOutTestCase(java.lang.String)[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="LoginThenLogOutTestCase" duration-ms="12401" started-at="2023-03-17T20:44:13Z" data-provider="LoginTestData" finished-at="2023-03-17T20:44:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user,secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginThenLogOutTestCase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="afterMethod" is-config="true" duration-ms="550" started-at="2023-03-17T20:44:25Z" finished-at="2023-03-17T20:44:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LoginThenLogOutTestCase status=SUCCESS method=LoginTestCases.LoginThenLogOutTestCase(java.lang.String)[pri:0, instance:Testcases.LoginTestCases@27c20538] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="beforeMethod" is-config="true" duration-ms="17757" started-at="2023-03-17T20:44:26Z" finished-at="2023-03-17T20:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="ValidLoginTestCase(java.lang.String)[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="ValidLoginTestCase" duration-ms="17820" started-at="2023-03-17T20:44:43Z" data-provider="LoginTestData" finished-at="2023-03-17T20:45:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user,secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidLoginTestCase -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="afterMethod" is-config="true" duration-ms="623" started-at="2023-03-17T20:45:01Z" finished-at="2023-03-17T20:45:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ValidLoginTestCase status=SUCCESS method=LoginTestCases.ValidLoginTestCase(java.lang.String)[pri:0, instance:Testcases.LoginTestCases@27c20538] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="EndReport()[pri:0, instance:Testcases.LoginTestCases@27c20538]" name="EndReport" is-config="true" duration-ms="1218" started-at="2023-03-17T20:45:02Z" finished-at="2023-03-17T20:45:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EndReport -->
+      </class> <!-- Testcases.LoginTestCases -->
+    </test> <!-- RegressionTest -->
+  </suite> <!-- Default suite -->
+</testng-results>

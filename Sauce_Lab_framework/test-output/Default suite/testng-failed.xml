@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="Testcases.LoginTestCases">
+        <methods>
+          <include name="LoginThenLogOutTestCase" invocation-numbers="0"/>
+          <include name="GenerateExtentReport"/>
+          <include name="ValidLoginTestCase" invocation-numbers="0"/>
+          <include name="afterMethod"/>
+          <include name="EndReport"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- Testcases.LoginTestCases -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
